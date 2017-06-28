@@ -2,7 +2,7 @@
   "name": "photoviewer",
   "version": "1.0.0",
   "description": "Photo viewer",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "https://github.com/DanFoad/photoviewer",
   "scripts": {
     "test": "console.log(\"no test\");"

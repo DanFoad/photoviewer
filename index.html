@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
+</head>
+<body>
+
+    <section class="titlebar">
+        <ul>
+            <li class="titlebar__minimize"><i class="fa fa-window-minimize"></i></li>
+            <li class="titlebar__maximize"><i class="fa fa-window-restore"></i></li>
+            <li class="titlebar__close"><i class="fa fa-close"></i></li>
+        </ul>
+    </section>
+
+    <header class="header">
+        <h1 class="header__title">Photo Viewer</h1>
+    </header>
+
+    <script>
+        require('./renderer.js');
+    </script>
+</body>
+</html>
